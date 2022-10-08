@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PiController3B/static/css/main.015a2a2c.css",
+    "main.js": "/PiController3B/static/js/main.06a1ec1c.js",
+    "static/js/787.18b57f8c.chunk.js": "/PiController3B/static/js/787.18b57f8c.chunk.js",
+    "static/media/raspberryPiLogo.png": "/PiController3B/static/media/raspberryPiLogo.70a389cbab2be9d33594.png",
+    "index.html": "/PiController3B/index.html",
+    "main.015a2a2c.css.map": "/PiController3B/static/css/main.015a2a2c.css.map",
+    "main.06a1ec1c.js.map": "/PiController3B/static/js/main.06a1ec1c.js.map",
+    "787.18b57f8c.chunk.js.map": "/PiController3B/static/js/787.18b57f8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.015a2a2c.css",
+    "static/js/main.06a1ec1c.js"
+  ]
+}
