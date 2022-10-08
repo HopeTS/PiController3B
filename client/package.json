@@ -2,6 +2,7 @@
   "name": "react_gpio_controller",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://RobbyB97.github.io/PiController3B",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -74,7 +75,9 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "build:css": "node-sass src/ -o src/",
-    "build:css:watch": "node-sass src/ -o src/ -w"
+    "build:css:watch": "node-sass src/ -o src/ -w",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -96,6 +99,7 @@
   },
   "devDependencies": {
     "@types/node-sass": "^4.11.3",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.3"
   },
   "jest": {
