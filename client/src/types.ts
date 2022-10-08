@@ -44,3 +44,9 @@ export type Pin = {
 
 /** Pin data (JSON object from pi) */
 export type PinData = { [key: number]: Pin };
+
+/** Command to give to pi */
+export type Command = {}
+
+/** Chain of commands for automation */
+export type Macro = {}
