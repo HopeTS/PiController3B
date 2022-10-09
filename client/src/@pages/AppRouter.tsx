@@ -8,7 +8,7 @@ import Wildcard from "./Wildcard";
 
 export const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="PiController3B">
       <Header />
       <Routes>
         <Route element={<Dashboard />} path="/" />
