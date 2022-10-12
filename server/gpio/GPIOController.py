@@ -21,7 +21,7 @@ class GPIOController:
 
     def emit(self):
         ''' Emit changes through websocket '''
-        emit("gpio-update", {"data": self.jsonify()})
+        emit("gpio-update", {"data": self.jsonify()}, broadcast=True)
         return
 
     def jsonify(self):
