@@ -85,8 +85,13 @@ const Pin = ({
       onClick={() => updateSelectedPin()}
     >
       <div className="GPIOPin__label">
-        <h3>{name}</h3>
-        <p>{number}</p>
+        <div className="GPIOPin__labelData">
+          <h3>{name}</h3>
+          <p>{type}</p>
+        </div>
+        <div className="GPIOPin__labelNumber">
+          <p>{number}</p>
+        </div>
       </div>
 
       <div className="GPIOPin__boardPiece" data-active={true}>
