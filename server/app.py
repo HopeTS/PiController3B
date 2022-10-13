@@ -40,17 +40,6 @@ gpio_controller = GPIOController(socketio)
 
 
 '''
-    Database config
-'''
-
-
-def get_db_connection():
-    conn = sqlite3.connect("data.db")
-    conn.row_factory = sqlite3.Row
-    return conn
-
-
-'''
     Websocket routes
 '''
 
@@ -61,11 +50,6 @@ def get_gpio():
     global gpio_controller
     print("Get GPIO hit")
     data = (gpio_controller.jsonify())
-
-    conn = get_db_connection()
-    pin = conn.execute("SELECT * FROM pins").fetchall()
-    conn.close()
-    print("here are the pins", pin)
 
     #     send(jsonify(data), json=True)
     return emit("gpio-update", {"data": jsonify(data)})
