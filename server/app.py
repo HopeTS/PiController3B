@@ -17,7 +17,7 @@ from gpio.GPIOController import GPIOController
 currentDirectory = os.path.dirname(os.path.abspath(__file__))
 
 # Set up dateabase
-connection = sqlite3.connect({currentDirectory + "/data/data.db"})
+connection = sqlite3.connect("./data/data.db")
 
 # Set up config
 load_dotenv()
