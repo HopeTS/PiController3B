@@ -94,7 +94,7 @@ def message(incData):
 def toggle_pin(incData):
     global gpio_controller
     gpio_controller.toggle_pin(incData['number'])
-    return
+    return 200
 
 
 if __name__ == "__main__":
