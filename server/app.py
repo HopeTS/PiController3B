@@ -13,12 +13,6 @@ from gpio.GPIOController import GPIOController
     Setup
 '''
 
-# Root directory
-currentDirectory = os.path.dirname(os.path.abspath(__file__))
-
-# Set up dateabase
-connection = sqlite3.connect("./data/data.db")
-
 # Set up config
 load_dotenv()
 global config
