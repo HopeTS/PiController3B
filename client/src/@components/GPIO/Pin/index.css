@@ -32,10 +32,16 @@
   flex-wrap: nowrap;
   justify-content: flex-end;
   border-bottom: 1px solid lightgray; }
+  .GPIOPin__label h3 {
+    margin: 0;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 18px; }
   .GPIOPin__label p {
     margin: 0;
     padding: 0;
-    display: inline-block; }
+    display: inline-block;
+    font-size: 14px; }
 
 .GPIOPin__labelNumber {
   width: 32px; }

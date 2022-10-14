@@ -58,10 +58,18 @@
     justify-content: flex-end;
     border-bottom: 1px solid lightgray;
 
+    h3 {
+        margin: 0;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
     p {
         margin: 0;
         padding: 0;
         display: inline-block;
+        font-size: 14px;
     }
 }
 
@@ -77,9 +85,9 @@
 .GPIOPin__labelData {
     width: max-content;
     flex-grow: 1;
-    
-    h3 {
 
+    h3 {
+        
     }
 
     p {
